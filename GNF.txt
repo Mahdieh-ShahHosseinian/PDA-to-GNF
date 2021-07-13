@@ -1,0 +1,11 @@
+(q0zq0)	->	a(q0Aq0)(q0zq0) | a(q0Aq1)(q1zq0) | a(q0Aq2)(q2zq0) | a(q0Aq3)(q3zq0)
+(q0zq1)	->	a(q0Aq0)(q0zq1) | a(q0Aq1)(q1zq1) | a(q0Aq2)(q2zq1) | a(q0Aq3)(q3zq1)
+(q0zq2)	->	a(q0Aq0)(q0zq2) | a(q0Aq1)(q1zq2) | a(q0Aq2)(q2zq2) | a(q0Aq3)(q3zq2)
+(q0zq3)	->	a(q0Aq0)(q0zq3) | a(q0Aq1)(q1zq3) | a(q0Aq2)(q2zq3) | a(q0Aq3)(q3zq3)
+(q0Aq3)	->	a
+(q0Aq1)	->	b
+(q1zq2)	->	λ
+(q3zq0)	->	(q0Aq0)(q0zq0) | (q0Aq1)(q1zq0) | (q0Aq2)(q2zq0) | (q0Aq3)(q3zq0)
+(q3zq1)	->	(q0Aq0)(q0zq1) | (q0Aq1)(q1zq1) | (q0Aq2)(q2zq1) | (q0Aq3)(q3zq1)
+(q3zq2)	->	(q0Aq0)(q0zq2) | (q0Aq1)(q1zq2) | (q0Aq2)(q2zq2) | (q0Aq3)(q3zq2)
+(q3zq3)	->	(q0Aq0)(q0zq3) | (q0Aq1)(q1zq3) | (q0Aq2)(q2zq3) | (q0Aq3)(q3zq3)

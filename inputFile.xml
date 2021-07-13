@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Automata Type="PDA">
+    <Alphabets numberOfAlphabets="2">
+        <alphabet letter="a"/>
+        <alphabet letter="b"/>
+    </Alphabets>
+    <States numberOfStates="3">
+        <state name="q0"/>
+        <state name="q1"/>
+        <state name="q2"/>
+        <initialState name="q0"/>
+        <FinalStates numberOfFinalStates="1">
+            <finalState name="q2"/>
+        </FinalStates>
+    </States>
+    <Transitions numberOfTrans="4">
+        <transition name="tr1" source="q0" destination="q0" input="a" pop="z" push="Az"/>
+        <transition name="tr2" source="q0" destination="q0" input="a" pop="A" push="A"/>
+        <transition name="tr3" source="q0" destination="q1" input="b" pop="A" push="la"/>
+        <transition name="tr4" source="q1" destination="q2" input="la" pop="z" push="la"/>
+    </Transitions>
+</Automata>
